@@ -1,3 +1,6 @@
 {
-  "ignoreCommand": "git diff HEAD^ HEAD --name-only | grep -q '^landing/' && exit 1 || exit 0"
+  "framework": "nextjs",
+  "installCommand": "bun install --frozen-lockfile",
+  "buildCommand": "bun run build",
+  "outputDirectory": "out"
 }
